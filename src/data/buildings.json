@@ -1,0 +1,141 @@
+[
+  {
+    "buildingID": "B1997",
+    "buildingCode": "B1997",
+    "buildingName": "JTC Summit",
+    "buildingAddress": "8 Jurong Town Hall Road",
+    "lat": 1.3311,
+    "lng": 103.7419,
+    "openingTime": "08:00 am",
+    "closingTime": "10:00 pm",
+    "tnC": null,
+    "transports": [
+      {
+        "seqNum": 1,
+        "itemName": "Bus",
+        "itemType": "Bus",
+        "itemDesc": "Bus : Bus: Served by various bus services at Jurong East Bus Interchange which is less than 5 minutes walk from JTC Summit through a sheltered linkway"
+      },
+      {
+        "seqNum": 2,
+        "itemName": "Car",
+        "itemType": "Car",
+        "itemDesc": "Car : Car: 5 minutes from AYE and PIE"
+      },
+      {
+        "seqNum": 1,
+        "itemName": "MRT",
+        "itemType": "MRT",
+        "itemDesc": "MRT : MRT: 5 minutes walk from Jurong East MRT"
+      }
+    ],
+    "parkings": [
+      {
+        "seqNum": 1,
+        "itemName": "Carpark Lots",
+        "itemType": "Carpark",
+        "itemDesc": "No. of carpark lots : 341",
+        "itemQty": 341
+      },
+      {
+        "seqNum": 2,
+        "itemName": "Motorcycle Lots",
+        "itemType": "Motorcycle",
+        "itemDesc": "No. of motorcycle lots : 40",
+        "itemQty": 40
+      },
+      {
+        "seqNum": 3,
+        "itemName": "Heavy Vechicle Lots",
+        "itemType": "Heavy Vechicle",
+        "itemDesc": "No. of heavy vehicle lots : 0",
+        "itemQty": 0
+      }
+    ],
+    "amenities": "Meeting rooms, cafeteria, gym and sports facilities in the building. Short walk to JCube, JEM and Westgate.",
+    "propertyType": "Office Space",
+    "remarks": null,
+    "images": [
+      "jtc-summit/jtc-summit.jpg",
+      "jtc-summit/jtc-summit-3.jpg",
+      "jtc-summit/jtc-summit-4.jpg",
+      "jtc-summit/jtc-summit-loading-bay.jpg",
+      "jtc-summit/jtc-summit-loading-bay-2.jpg"
+    ]
+  },
+  {
+    "buildingID": "B2332",
+    "buildingCode": "B2332",
+    "buildingName": "JTC Aviation Two @ Seletar Aerospace Park",
+    "buildingAddress": "690 West Camp Road",
+    "lat": 1.408,
+    "lng": 103.8678,
+    "openingTime": "08:00 am",
+    "closingTime": "10:00 pm",
+    "tnC": null,
+    "transports": [
+      {
+        "seqNum": 1,
+        "itemName": "Bus",
+        "itemType": "Bus",
+        "itemDesc": "Bus : Bus: Served by bus 103,117"
+      },
+      {
+        "seqNum": 2,
+        "itemName": "Car",
+        "itemType": "Car",
+        "itemDesc": "Car : Car: 5 minutes from TPE"
+      },
+      {
+        "seqNum": 1,
+        "itemName": "MRT",
+        "itemType": "MRT",
+        "itemDesc": "MRT : MRT: 10 minutes drive from Yishun MRT 10 minutes drive from Buangkok MRT"
+      }
+    ],
+    "parkings": [
+      {
+        "seqNum": 1,
+        "itemName": "Carpark Lots",
+        "itemType": "Carpark",
+        "itemDesc": "No. of carpark lots : 54",
+        "itemQty": 54
+      },
+      {
+        "seqNum": 2,
+        "itemName": "Motorcycle Lots",
+        "itemType": "Motorcycle",
+        "itemDesc": "No. of motorcycle lots : 7",
+        "itemQty": 7
+      },
+      {
+        "seqNum": 3,
+        "itemName": "Heavy Vechicle Lots",
+        "itemType": "Heavy Vechicle",
+        "itemDesc": "No. of heavy vehicle lots : 5",
+        "itemQty": 5
+      },
+      {
+        "seqNum": 4,
+        "itemName": "Handicap Lots",
+        "itemType": "Handicap",
+        "itemDesc": "No. of handicap lots : 2",
+        "itemQty": 2
+      }
+    ],
+    "amenities": "The Oval located in estate. Short drive to Seletar Mall.",
+    "propertyType": "Factory Space",
+    "remarks": null,
+    "images": [
+      "jtc-aviation-two-sap/cover-jtc-aviation-two-sap-building-exterior-1.jpg",
+      "jtc-aviation-two-sap/jtc-aviation-two-sap-building-exterior-2.jpg",
+      "jtc-aviation-two-sap/jtc-aviation-two-sap-building-exterior-3.jpg",
+      "jtc-aviation-two-sap/jtc-aviation-two-sap-building-exterior-4.jpg",
+      "jtc-aviation-two-sap/jtc-aviation-two-sap-building-exterior-5.jpg",
+      "jtc-aviation-two-sap/jtc-aviation-two-sap-building-exterior-6.jpg",
+      "jtc-aviation-two-sap/jtc-aviation-two-sap-building-exterior-7.jpg",
+      "jtc-aviation-two-sap/jtc-aviation-two-sap-wright-brothers-food-court-1.jpg",
+      "jtc-aviation-two-sap/jtc-aviation-two-sap-wright-brothers-food-court-2.jpg"
+    ]
+  }
+]

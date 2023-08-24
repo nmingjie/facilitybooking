@@ -1,0 +1,1 @@
+export const SET_CURRENT_WIDTH = 'SET_CURRENT_WIDTH';

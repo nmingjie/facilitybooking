@@ -1,0 +1,530 @@
+[
+  {
+    "facilityID": "1de6cc3f-e763-4cd5-9a58-6a4b43105fad",
+    "facilityCode": "1de6cc3f-e763-4cd5-9a58-6a4b43105fad",
+    "facilityName": "Meeting Rooms (3 rooms combined)",
+    "facilityType": "Meeting Room",
+    "capacity": 60,
+    "reCode": "1de6cc3f-e763-4cd5-9a58-6a4b43105fad",
+    "area": 180,
+    "hourlyRentWeekday": 97.2,
+    "hourlyRentWeekend": 97.2,
+    "rentPerDay": 0,
+    "building": {
+      "buildingID": "B2332",
+      "buildingCode": "B2332",
+      "buildingName": "JTC Aviation Two @ Seletar Aerospace Park",
+      "buildingAddress": "690 West Camp Road",
+      "lat": 1.408,
+      "lng": 103.8678,
+      "openingTime": "08:00 am",
+      "closingTime": "10:00 pm",
+      "tnC": null,
+      "transports": [
+        {
+          "seqNum": 1,
+          "itemName": "Bus",
+          "itemType": "Bus",
+          "itemDesc": "Bus : Bus: Served by bus 103,117"
+        },
+        {
+          "seqNum": 2,
+          "itemName": "Car",
+          "itemType": "Car",
+          "itemDesc": "Car : Car: 5 minutes from TPE"
+        },
+        {
+          "seqNum": 1,
+          "itemName": "MRT",
+          "itemType": "MRT",
+          "itemDesc": "MRT : MRT: 10 minutes drive from Yishun MRT 10 minutes drive from Buangkok MRT"
+        }
+      ],
+      "parkings": [
+        {
+          "seqNum": 1,
+          "itemName": "Carpark Lots",
+          "itemType": "Carpark",
+          "itemDesc": "No. of carpark lots : 54",
+          "itemQty": 54
+        },
+        {
+          "seqNum": 2,
+          "itemName": "Motorcycle Lots",
+          "itemType": "Motorcycle",
+          "itemDesc": "No. of motorcycle lots : 7",
+          "itemQty": 7
+        },
+        {
+          "seqNum": 3,
+          "itemName": "Heavy Vechicle Lots",
+          "itemType": "Heavy Vechicle",
+          "itemDesc": "No. of heavy vehicle lots : 5",
+          "itemQty": 5
+        },
+        {
+          "seqNum": 4,
+          "itemName": "Handicap Lots",
+          "itemType": "Handicap",
+          "itemDesc": "No. of handicap lots : 2",
+          "itemQty": 2
+        }
+      ],
+      "amenities": "The Oval located in estate. Short drive to Seletar Mall.",
+      "propertyType": "Factory Space",
+      "remarks": null,
+      "images": [
+        "jtc-aviation-two-sap/cover-jtc-aviation-two-sap-building-exterior-1.jpg",
+        "jtc-aviation-two-sap/jtc-aviation-two-sap-building-exterior-2.jpg",
+        "jtc-aviation-two-sap/jtc-aviation-two-sap-building-exterior-3.jpg",
+        "jtc-aviation-two-sap/jtc-aviation-two-sap-building-exterior-4.jpg",
+        "jtc-aviation-two-sap/jtc-aviation-two-sap-building-exterior-5.jpg",
+        "jtc-aviation-two-sap/jtc-aviation-two-sap-building-exterior-6.jpg",
+        "jtc-aviation-two-sap/jtc-aviation-two-sap-building-exterior-7.jpg",
+        "jtc-aviation-two-sap/jtc-aviation-two-sap-wright-brothers-food-court-1.jpg",
+        "jtc-aviation-two-sap/jtc-aviation-two-sap-wright-brothers-food-court-2.jpg"
+      ]
+    },
+    "clusterID": "1"
+  },
+  {
+    "facilityID": "5a4c2a8c-3e3a-463a-9810-534a99b3c5dd",
+    "facilityCode": "5a4c2a8c-3e3a-463a-9810-534a99b3c5dd",
+    "facilityName": "Meeting Room 2",
+    "facilityType": "Meeting Room",
+    "capacity": 20,
+    "reCode": "5a4c2a8c-3e3a-463a-9810-534a99b3c5dd",
+    "area": 60,
+    "hourlyRentWeekday": 43.2,
+    "hourlyRentWeekend": 43.2,
+    "rentPerDay": 0,
+    "building": {
+      "buildingID": "B2332",
+      "buildingCode": "B2332",
+      "buildingName": "JTC Aviation Two @ Seletar Aerospace Park",
+      "buildingAddress": "690 West Camp Road",
+      "lat": 1.408,
+      "lng": 103.8678,
+      "openingTime": "08:00 am",
+      "closingTime": "10:00 pm",
+      "tnC": null,
+      "transports": [
+        {
+          "seqNum": 1,
+          "itemName": "Bus",
+          "itemType": "Bus",
+          "itemDesc": "Bus : Bus: Served by bus 103,117"
+        },
+        {
+          "seqNum": 2,
+          "itemName": "Car",
+          "itemType": "Car",
+          "itemDesc": "Car : Car: 5 minutes from TPE"
+        },
+        {
+          "seqNum": 1,
+          "itemName": "MRT",
+          "itemType": "MRT",
+          "itemDesc": "MRT : MRT: 10 minutes drive from Yishun MRT 10 minutes drive from Buangkok MRT"
+        }
+      ],
+      "parkings": [
+        {
+          "seqNum": 1,
+          "itemName": "Carpark Lots",
+          "itemType": "Carpark",
+          "itemDesc": "No. of carpark lots : 54",
+          "itemQty": 54
+        },
+        {
+          "seqNum": 2,
+          "itemName": "Motorcycle Lots",
+          "itemType": "Motorcycle",
+          "itemDesc": "No. of motorcycle lots : 7",
+          "itemQty": 7
+        },
+        {
+          "seqNum": 3,
+          "itemName": "Heavy Vechicle Lots",
+          "itemType": "Heavy Vechicle",
+          "itemDesc": "No. of heavy vehicle lots : 5",
+          "itemQty": 5
+        },
+        {
+          "seqNum": 4,
+          "itemName": "Handicap Lots",
+          "itemType": "Handicap",
+          "itemDesc": "No. of handicap lots : 2",
+          "itemQty": 2
+        }
+      ],
+      "amenities": "The Oval located in estate. Short drive to Seletar Mall.",
+      "propertyType": "Factory Space",
+      "remarks": null,
+      "images": [
+        "jtc-aviation-two-sap/cover-jtc-aviation-two-sap-building-exterior-1.jpg",
+        "jtc-aviation-two-sap/jtc-aviation-two-sap-building-exterior-2.jpg",
+        "jtc-aviation-two-sap/jtc-aviation-two-sap-building-exterior-3.jpg",
+        "jtc-aviation-two-sap/jtc-aviation-two-sap-building-exterior-4.jpg",
+        "jtc-aviation-two-sap/jtc-aviation-two-sap-building-exterior-5.jpg",
+        "jtc-aviation-two-sap/jtc-aviation-two-sap-building-exterior-6.jpg",
+        "jtc-aviation-two-sap/jtc-aviation-two-sap-building-exterior-7.jpg",
+        "jtc-aviation-two-sap/jtc-aviation-two-sap-wright-brothers-food-court-1.jpg",
+        "jtc-aviation-two-sap/jtc-aviation-two-sap-wright-brothers-food-court-2.jpg"
+      ]
+    },
+    "clusterID": "1"
+  },
+  {
+    "facilityID": "5a92f8c0-8eb0-4f7a-b094-fd511ffb5e90",
+    "facilityCode": "5a92f8c0-8eb0-4f7a-b094-fd511ffb5e90",
+    "facilityName": "Meeting Room 1",
+    "facilityType": "Meeting Room",
+    "capacity": 20,
+    "reCode": "5a92f8c0-8eb0-4f7a-b094-fd511ffb5e90",
+    "area": 60,
+    "hourlyRentWeekday": 43.2,
+    "hourlyRentWeekend": 43.2,
+    "rentPerDay": 0,
+    "building": {
+      "buildingID": "B2332",
+      "buildingCode": "B2332",
+      "buildingName": "JTC Aviation Two @ Seletar Aerospace Park",
+      "buildingAddress": "690 West Camp Road",
+      "lat": 1.408,
+      "lng": 103.8678,
+      "openingTime": "08:00 am",
+      "closingTime": "10:00 pm",
+      "tnC": null,
+      "transports": [
+        {
+          "seqNum": 1,
+          "itemName": "Bus",
+          "itemType": "Bus",
+          "itemDesc": "Bus : Bus: Served by bus 103,117"
+        },
+        {
+          "seqNum": 2,
+          "itemName": "Car",
+          "itemType": "Car",
+          "itemDesc": "Car : Car: 5 minutes from TPE"
+        },
+        {
+          "seqNum": 1,
+          "itemName": "MRT",
+          "itemType": "MRT",
+          "itemDesc": "MRT : MRT: 10 minutes drive from Yishun MRT 10 minutes drive from Buangkok MRT"
+        }
+      ],
+      "parkings": [
+        {
+          "seqNum": 1,
+          "itemName": "Carpark Lots",
+          "itemType": "Carpark",
+          "itemDesc": "No. of carpark lots : 54",
+          "itemQty": 54
+        },
+        {
+          "seqNum": 2,
+          "itemName": "Motorcycle Lots",
+          "itemType": "Motorcycle",
+          "itemDesc": "No. of motorcycle lots : 7",
+          "itemQty": 7
+        },
+        {
+          "seqNum": 3,
+          "itemName": "Heavy Vechicle Lots",
+          "itemType": "Heavy Vechicle",
+          "itemDesc": "No. of heavy vehicle lots : 5",
+          "itemQty": 5
+        },
+        {
+          "seqNum": 4,
+          "itemName": "Handicap Lots",
+          "itemType": "Handicap",
+          "itemDesc": "No. of handicap lots : 2",
+          "itemQty": 2
+        }
+      ],
+      "amenities": "The Oval located in estate. Short drive to Seletar Mall.",
+      "propertyType": "Factory Space",
+      "remarks": null,
+      "images": [
+        "jtc-aviation-two-sap/cover-jtc-aviation-two-sap-building-exterior-1.jpg",
+        "jtc-aviation-two-sap/jtc-aviation-two-sap-building-exterior-2.jpg",
+        "jtc-aviation-two-sap/jtc-aviation-two-sap-building-exterior-3.jpg",
+        "jtc-aviation-two-sap/jtc-aviation-two-sap-building-exterior-4.jpg",
+        "jtc-aviation-two-sap/jtc-aviation-two-sap-building-exterior-5.jpg",
+        "jtc-aviation-two-sap/jtc-aviation-two-sap-building-exterior-6.jpg",
+        "jtc-aviation-two-sap/jtc-aviation-two-sap-building-exterior-7.jpg",
+        "jtc-aviation-two-sap/jtc-aviation-two-sap-wright-brothers-food-court-1.jpg",
+        "jtc-aviation-two-sap/jtc-aviation-two-sap-wright-brothers-food-court-2.jpg"
+      ]
+    },
+    "clusterID": "1"
+  },
+  {
+    "facilityID": "764fecc1-4a1e-4747-ad49-945d26562d9a",
+    "facilityCode": "764fecc1-4a1e-4747-ad49-945d26562d9a",
+    "facilityName": "Board Room",
+    "facilityType": "Board Room",
+    "capacity": 10,
+    "reCode": "764fecc1-4a1e-4747-ad49-945d26562d9a",
+    "area": 50,
+    "hourlyRentWeekday": 21.6,
+    "hourlyRentWeekend": 21.6,
+    "rentPerDay": 0,
+    "building": {
+      "buildingID": "B2332",
+      "buildingCode": "B2332",
+      "buildingName": "JTC Aviation Two @ Seletar Aerospace Park",
+      "buildingAddress": "690 West Camp Road",
+      "lat": 1.408,
+      "lng": 103.8678,
+      "openingTime": "08:00 am",
+      "closingTime": "10:00 pm",
+      "tnC": null,
+      "transports": [
+        {
+          "seqNum": 1,
+          "itemName": "Bus",
+          "itemType": "Bus",
+          "itemDesc": "Bus : Bus: Served by bus 103,117"
+        },
+        {
+          "seqNum": 2,
+          "itemName": "Car",
+          "itemType": "Car",
+          "itemDesc": "Car : Car: 5 minutes from TPE"
+        },
+        {
+          "seqNum": 1,
+          "itemName": "MRT",
+          "itemType": "MRT",
+          "itemDesc": "MRT : MRT: 10 minutes drive from Yishun MRT 10 minutes drive from Buangkok MRT"
+        }
+      ],
+      "parkings": [
+        {
+          "seqNum": 1,
+          "itemName": "Carpark Lots",
+          "itemType": "Carpark",
+          "itemDesc": "No. of carpark lots : 54",
+          "itemQty": 54
+        },
+        {
+          "seqNum": 2,
+          "itemName": "Motorcycle Lots",
+          "itemType": "Motorcycle",
+          "itemDesc": "No. of motorcycle lots : 7",
+          "itemQty": 7
+        },
+        {
+          "seqNum": 3,
+          "itemName": "Heavy Vechicle Lots",
+          "itemType": "Heavy Vechicle",
+          "itemDesc": "No. of heavy vehicle lots : 5",
+          "itemQty": 5
+        },
+        {
+          "seqNum": 4,
+          "itemName": "Handicap Lots",
+          "itemType": "Handicap",
+          "itemDesc": "No. of handicap lots : 2",
+          "itemQty": 2
+        }
+      ],
+      "amenities": "The Oval located in estate. Short drive to Seletar Mall.",
+      "propertyType": "Factory Space",
+      "remarks": null,
+      "images": [
+        "jtc-aviation-two-sap/cover-jtc-aviation-two-sap-building-exterior-1.jpg",
+        "jtc-aviation-two-sap/jtc-aviation-two-sap-building-exterior-2.jpg",
+        "jtc-aviation-two-sap/jtc-aviation-two-sap-building-exterior-3.jpg",
+        "jtc-aviation-two-sap/jtc-aviation-two-sap-building-exterior-4.jpg",
+        "jtc-aviation-two-sap/jtc-aviation-two-sap-building-exterior-5.jpg",
+        "jtc-aviation-two-sap/jtc-aviation-two-sap-building-exterior-6.jpg",
+        "jtc-aviation-two-sap/jtc-aviation-two-sap-building-exterior-7.jpg",
+        "jtc-aviation-two-sap/jtc-aviation-two-sap-wright-brothers-food-court-1.jpg",
+        "jtc-aviation-two-sap/jtc-aviation-two-sap-wright-brothers-food-court-2.jpg"
+      ]
+    },
+    "clusterID": "1"
+  },
+  {
+    "facilityID": "b2f177e0-94df-49d1-8081-7c8bcef126bf",
+    "facilityCode": "b2f177e0-94df-49d1-8081-7c8bcef126bf",
+    "facilityName": "Meeting Rooms (2 rooms combined)",
+    "facilityType": "Meeting Room",
+    "capacity": 40,
+    "reCode": "b2f177e0-94df-49d1-8081-7c8bcef126bf",
+    "area": 120,
+    "hourlyRentWeekday": 75.6,
+    "hourlyRentWeekend": 75.6,
+    "rentPerDay": 0,
+    "building": {
+      "buildingID": "B2332",
+      "buildingCode": "B2332",
+      "buildingName": "JTC Aviation Two @ Seletar Aerospace Park",
+      "buildingAddress": "690 West Camp Road",
+      "lat": 1.408,
+      "lng": 103.8678,
+      "openingTime": "08:00 am",
+      "closingTime": "10:00 pm",
+      "tnC": null,
+      "transports": [
+        {
+          "seqNum": 1,
+          "itemName": "Bus",
+          "itemType": "Bus",
+          "itemDesc": "Bus : Bus: Served by bus 103,117"
+        },
+        {
+          "seqNum": 2,
+          "itemName": "Car",
+          "itemType": "Car",
+          "itemDesc": "Car : Car: 5 minutes from TPE"
+        },
+        {
+          "seqNum": 1,
+          "itemName": "MRT",
+          "itemType": "MRT",
+          "itemDesc": "MRT : MRT: 10 minutes drive from Yishun MRT 10 minutes drive from Buangkok MRT"
+        }
+      ],
+      "parkings": [
+        {
+          "seqNum": 1,
+          "itemName": "Carpark Lots",
+          "itemType": "Carpark",
+          "itemDesc": "No. of carpark lots : 54",
+          "itemQty": 54
+        },
+        {
+          "seqNum": 2,
+          "itemName": "Motorcycle Lots",
+          "itemType": "Motorcycle",
+          "itemDesc": "No. of motorcycle lots : 7",
+          "itemQty": 7
+        },
+        {
+          "seqNum": 3,
+          "itemName": "Heavy Vechicle Lots",
+          "itemType": "Heavy Vechicle",
+          "itemDesc": "No. of heavy vehicle lots : 5",
+          "itemQty": 5
+        },
+        {
+          "seqNum": 4,
+          "itemName": "Handicap Lots",
+          "itemType": "Handicap",
+          "itemDesc": "No. of handicap lots : 2",
+          "itemQty": 2
+        }
+      ],
+      "amenities": "The Oval located in estate. Short drive to Seletar Mall.",
+      "propertyType": "Factory Space",
+      "remarks": null,
+      "images": [
+        "jtc-aviation-two-sap/cover-jtc-aviation-two-sap-building-exterior-1.jpg",
+        "jtc-aviation-two-sap/jtc-aviation-two-sap-building-exterior-2.jpg",
+        "jtc-aviation-two-sap/jtc-aviation-two-sap-building-exterior-3.jpg",
+        "jtc-aviation-two-sap/jtc-aviation-two-sap-building-exterior-4.jpg",
+        "jtc-aviation-two-sap/jtc-aviation-two-sap-building-exterior-5.jpg",
+        "jtc-aviation-two-sap/jtc-aviation-two-sap-building-exterior-6.jpg",
+        "jtc-aviation-two-sap/jtc-aviation-two-sap-building-exterior-7.jpg",
+        "jtc-aviation-two-sap/jtc-aviation-two-sap-wright-brothers-food-court-1.jpg",
+        "jtc-aviation-two-sap/jtc-aviation-two-sap-wright-brothers-food-court-2.jpg"
+      ]
+    },
+    "clusterID": "1"
+  },
+  {
+    "facilityID": "d2efc5ee-4951-4305-98f8-c51f73e70456",
+    "facilityCode": "d2efc5ee-4951-4305-98f8-c51f73e70456",
+    "facilityName": "Meeting Room 3",
+    "facilityType": "Meeting Room",
+    "capacity": 20,
+    "reCode": "d2efc5ee-4951-4305-98f8-c51f73e70456",
+    "area": 60,
+    "hourlyRentWeekday": 43.2,
+    "hourlyRentWeekend": 43.2,
+    "rentPerDay": 0,
+    "building": {
+      "buildingID": "B2332",
+      "buildingCode": "B2332",
+      "buildingName": "JTC Aviation Two @ Seletar Aerospace Park",
+      "buildingAddress": "690 West Camp Road",
+      "lat": 1.408,
+      "lng": 103.8678,
+      "openingTime": "08:00 am",
+      "closingTime": "10:00 pm",
+      "tnC": null,
+      "transports": [
+        {
+          "seqNum": 1,
+          "itemName": "Bus",
+          "itemType": "Bus",
+          "itemDesc": "Bus : Bus: Served by bus 103,117"
+        },
+        {
+          "seqNum": 2,
+          "itemName": "Car",
+          "itemType": "Car",
+          "itemDesc": "Car : Car: 5 minutes from TPE"
+        },
+        {
+          "seqNum": 1,
+          "itemName": "MRT",
+          "itemType": "MRT",
+          "itemDesc": "MRT : MRT: 10 minutes drive from Yishun MRT 10 minutes drive from Buangkok MRT"
+        }
+      ],
+      "parkings": [
+        {
+          "seqNum": 1,
+          "itemName": "Carpark Lots",
+          "itemType": "Carpark",
+          "itemDesc": "No. of carpark lots : 54",
+          "itemQty": 54
+        },
+        {
+          "seqNum": 2,
+          "itemName": "Motorcycle Lots",
+          "itemType": "Motorcycle",
+          "itemDesc": "No. of motorcycle lots : 7",
+          "itemQty": 7
+        },
+        {
+          "seqNum": 3,
+          "itemName": "Heavy Vechicle Lots",
+          "itemType": "Heavy Vechicle",
+          "itemDesc": "No. of heavy vehicle lots : 5",
+          "itemQty": 5
+        },
+        {
+          "seqNum": 4,
+          "itemName": "Handicap Lots",
+          "itemType": "Handicap",
+          "itemDesc": "No. of handicap lots : 2",
+          "itemQty": 2
+        }
+      ],
+      "amenities": "The Oval located in estate. Short drive to Seletar Mall.",
+      "propertyType": "Factory Space",
+      "remarks": null,
+      "images": [
+        "jtc-aviation-two-sap/cover-jtc-aviation-two-sap-building-exterior-1.jpg",
+        "jtc-aviation-two-sap/jtc-aviation-two-sap-building-exterior-2.jpg",
+        "jtc-aviation-two-sap/jtc-aviation-two-sap-building-exterior-3.jpg",
+        "jtc-aviation-two-sap/jtc-aviation-two-sap-building-exterior-4.jpg",
+        "jtc-aviation-two-sap/jtc-aviation-two-sap-building-exterior-5.jpg",
+        "jtc-aviation-two-sap/jtc-aviation-two-sap-building-exterior-6.jpg",
+        "jtc-aviation-two-sap/jtc-aviation-two-sap-building-exterior-7.jpg",
+        "jtc-aviation-two-sap/jtc-aviation-two-sap-wright-brothers-food-court-1.jpg",
+        "jtc-aviation-two-sap/jtc-aviation-two-sap-wright-brothers-food-court-2.jpg"
+      ]
+    },
+    "clusterID": "1"
+  }
+]
