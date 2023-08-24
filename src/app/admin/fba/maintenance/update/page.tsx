@@ -30,7 +30,7 @@ import MessageDialog from "../components/MessageDialog";
 import { cn, getGuid } from "@/lib/utils";
 import { UTCToLocal, initTimeComponentDate, handlerSelectTimeByDate, handlerStartAndEndTime } from "@/lib/timeUtils";
 import { getAnnoucementByCodeApi, updateAnnoucementApi } from "@/api/modules/annoucement";
-import { RichTextEditor } from "../components/RichTextEditor"
+import { RichTextEditor } from "@/components/RichTextEditor"
 const metadata: Metadata = {
   title: "Maintenance | JTC",
   description: "Maintenance | JTC",

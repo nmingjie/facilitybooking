@@ -19,7 +19,7 @@ const ListingPage = ({ params }: { params: IParams }) => {
 
   useEffect(() => {
     init();
-  }, [query]);
+  }, []);
 
   return (
     <ClientOnly>

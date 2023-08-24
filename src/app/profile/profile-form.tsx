@@ -30,6 +30,7 @@ import { toast } from "@/components/ui/use-toast";
 import { Separator } from "@/components/ui/separator";
 import { store } from "@/redux";
 import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
 
 const profileFormSchema = z.object({
   username: z
@@ -80,6 +81,7 @@ type UserInfo = {
 export function ProfileForm() {
   const userInfo = store.getState().user.userinfo;
   const [effectUserInfo, setEffectUserInfo] = useState<UserInfo>();
+  const router = useRouter();
 
   useEffect(() => {
     setEffectUserInfo(userInfo);
@@ -107,6 +109,10 @@ export function ProfileForm() {
     });
   }
 
+  const handleRouterChangePwd = () => {
+    router.push('/password/change');
+  }
+
   return (
     <Form {...form}>
       <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
@@ -118,7 +124,7 @@ export function ProfileForm() {
               render={({ field }) => (
                 <FormItem>
                   <FormLabel>First Name: </FormLabel>
-                    {effectUserInfo?.firstName}
+                  {effectUserInfo?.firstName}
                   <FormControl>
                     {/* <Input placeholder="Placeholder" {...field} /> */}
                   </FormControl>
@@ -282,7 +288,7 @@ export function ProfileForm() {
             </FormItem>
           )}
         /> */}
-        <Button type="submit">Change Passowrd</Button>
+        <Button onClick={() => handleRouterChangePwd()}>Change Passowrd</Button>
         <Separator />
       </form>
     </Form>

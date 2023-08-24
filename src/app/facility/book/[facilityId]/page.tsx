@@ -16,7 +16,7 @@ const ListingPage = () => {
   };
   useEffect(() => {
     init();
-  }, [query]);
+  }, []);
 
   return (
     <ClientOnly>

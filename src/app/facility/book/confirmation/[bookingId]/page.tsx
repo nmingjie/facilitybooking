@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { format } from "date-fns";
 import { useRouter } from "next/navigation";
 import { DownloadFile } from "@/lib/utils";
-import LoadingOverlay from "@/components/LoadingCustom";
+import Loader from "@/components/Loader";
 import { useParams } from "next/navigation";
 interface IParams {
     bookingId?: string;
@@ -35,12 +35,12 @@ export default function BookingSuccessPage ({params}:{params:IParams}) {
             setIsLoading(false);
             throw new Error(e);
         })
-    },[query])
+    },[])
      
     useEffect(() => {
         if(query?.bookingId)
             init();
-    },[query,init])
+    },[])
 
     const downloadInvoice = () => {
         request.get(`/api/fb/bookings/${params.bookingId}/invoice`,{responseType: "blob"})
@@ -56,7 +56,7 @@ export default function BookingSuccessPage ({params}:{params:IParams}) {
     return (
         <div className="container px-0">
         {
-            isLoading && <LoadingOverlay />
+            isLoading && <Loader />
         }
         {!isLoading&&(
             <div>

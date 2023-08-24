@@ -141,6 +141,12 @@ function NavBar(props: any) {
     setIsShowMobileNavUser(true);
   }
 
+  const handleRouterPush = () => {
+    if (effectUserInfo.role !== 'PUBLIC-USERS') {
+      router.push('/profile')
+    }
+  }
+
 
   return (
     <div className="fixed top-0 bg-white inset-x-0 z-50 sm:shadow-xl">
@@ -158,7 +164,7 @@ function NavBar(props: any) {
             {
               effectUserInfo.role ? (
                 <div className="flex sm:ml-6 text-blue-600  px-3 py-2 text-sm font-bold items-center gap-2">
-                  <Image className="hidden sm:block h-6 w-6 font-black text-[#006ceb]" src={user} alt="user" onClick={() => router.push('/profile')} />
+                  <Image className="hidden sm:block h-6 w-6 font-black text-[#006ceb]" src={user} alt="user" onClick={() => handleRouterPush()} />
                   <Image className="sm:hidden h-6 w-6 font-black text-[#006ceb]" src={user} alt="user" onClick={() => handleShowUserMenu()} />
                   {effectUserInfo.role !== 'PUBLIC-USERS' && <span className="text-blue-500 hidden sm:block">{effectUserInfo?.userName} ({effectUserInfo.role})</span>}
                   {effectUserInfo.role !== 'PUBLIC-USERS' && <button className="text-red-500 hidden sm:block" onClick={() => handleSignOut()}>Log out</button>}

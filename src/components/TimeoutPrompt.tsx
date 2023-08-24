@@ -20,7 +20,7 @@ const TimeoutPrompt = (props: any) => {
   const [visibilityS, setVisibilityS] = useState(0);
   const router = useRouter();
 
-  const [desktopFilterOpen, setDesktopFilterOpen] = React.useState(isShowProps);
+  const [desktopFilterOpen, setDesktopFilterOpen] = useState(isShowProps);
 
   const handleImHere = async () => {
     const res = await extendSession();
@@ -36,6 +36,13 @@ const TimeoutPrompt = (props: any) => {
       setLogout(true);
       show(false);
     }
+  }
+
+  const handleCancelDialog = () => {
+    router.push('/login');
+    setDesktopFilterOpen(false);
+    setLogout(true);
+    show(false);
   }
 
   useEffect(() => {
@@ -85,7 +92,7 @@ const TimeoutPrompt = (props: any) => {
         </div>
       </div>
     </div>
-    // <Dialog open={desktopFilterOpen} onOpenChange={setDesktopFilterOpen}>
+    // <Dialog open={desktopFilterOpen} onOpenChange={() => handleCancelDialog()}>
     //   <DialogContent>
     //     <DialogHeader className="bg-[#3A3A3A] text-white">
     //       <DialogTitle>
@@ -96,11 +103,12 @@ const TimeoutPrompt = (props: any) => {
     //     </DialogHeader>
 
     //     <div>
-    //       <div className='text-[25px] mx-8'>
+    //       <div className='text-[25px] m-8 '>
     //         If not, we&apos;ll close this session in: <span className='text-destructive'>{timer} seconds</span>
     //       </div>
-    //       <div className='w-full flex justify-end items-end flex-1 p-4'>
-    //         <div className='w-[80px] bg-[#006CEB] h-[45px] flex items-center justify-center text-white cursor-pointer' onClick={() => handleImHere()}>I&apos;m here</div>
+    //       <div className='w-full flex justify-end items-end flex-1 bg-[#F0F0F0] p-2'>
+    //         <div className='w-[80px]  h-[35px] flex items-center justify-center text-[#006CEB] cursor-pointer mr-4' onClick={() => handleCancelDialog()}>Cancel</div>
+    //         <div className='w-[80px] bg-[#006CEB] h-[35px] flex items-center justify-center text-white cursor-pointer mr-4' onClick={() => handleImHere()}>I&apos;m here</div>
     //       </div>
     //     </div>
     //   </DialogContent>

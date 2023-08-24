@@ -1,5 +1,6 @@
 import CarouselLowerRight from "@/components/CarouselLowerRight";
 import {useState, useEffect, useCallback} from "react";
+import {RichTextEditor} from "@/components/RichTextEditor";
 import { format } from "date-fns";
 type MessageSlideBannerProps = {
     announcementsInfo:object;
@@ -61,10 +62,20 @@ export default function MessageSlideBanner({announcementsInfo,bookingsInfo}:Mess
                                 <div className="p-2">
                                     <div className="mb-2.5 text-black text-xl font-medium">{item.messageType}</div>
                                     <div className="block sm:hidden">
-                                        <pre className="text-lg text-[#2A2A2A]" style={{"white-space":"pre-wrap","font-family":"Barlow"}}>{item.subject}</pre>
+                                        <RichTextEditor
+                                            theme="bubble"
+                                            value={item.subject}
+                                            readOnly
+                                            placeholder=""
+                                            />
                                     </div>
                                     <div className="hidden sm:block">
-                                        <pre className="text-lg text-[#2A2A2A]" style={{"white-space":"pre-wrap","font-family":"Barlow"}}>{item.content}</pre>
+                                        <RichTextEditor
+                                            theme="bubble"
+                                            value={item.content}
+                                            readOnly
+                                            placeholder=""
+                                            />
                                     </div>
                                 </div>
                             )}

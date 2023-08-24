@@ -8,7 +8,7 @@ import { MdArrowBackIosNew } from "react-icons/md";
 import { Button } from "@/components/ui/button";
 import Loader from "@/components/Loader";
 import { getAnnoucementByCodeApi } from "@/api/modules/annoucement";
-import { RichTextEditor } from "../components/RichTextEditor"
+import { RichTextEditor } from "@/components/RichTextEditor"
 import { maintenanceConfig } from "./dataConfig"
 const metadata: Metadata = {
   title: "Maintenance | JTC",

@@ -28,7 +28,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { createAnnoucementApi } from "@/api/modules/annoucement";
 import Loader from "@/components/Loader";
 import { initTimeComponentDate, handlerSelectTimeByDate, handlerStartAndEndTime } from "@/lib/timeUtils";
-import { RichTextEditor } from "../components/RichTextEditor"
+import { RichTextEditor } from "@/components/RichTextEditor"
 
 const metadata: Metadata = {
   title: "Maintenance | JTC",
